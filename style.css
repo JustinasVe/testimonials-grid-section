@@ -43,10 +43,12 @@ body {
 }
 
 @media (min-width: 576px) {
-    #testimonial-grid-container {
+
+    #testimonial-grid-container,
+    #main-left, 
+    #top,
+    #bottom {
         display: flex;
-        max-width: 1440px;
-        margin: 0 auto;
     }
 
     #testimonial-5 {
@@ -54,18 +56,11 @@ body {
     }
 
     #main-left {
-        display: flex;
         flex-direction: column;
         flex-basis: 80%;
     }
 
-    #top {
-        display: flex;
-        flex-basis: 50%;
-    }
-
-    #bottom {
-        display: flex;
+    #top, #bottom {
         flex-basis: 50%;
     }
 
@@ -76,7 +71,12 @@ body {
     #testimonial-2, #testimonial-3 {
         flex-basis: 35%;
     }
-    
+
+    #testimonial-grid-container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
     #main-left .grid-item {
         margin-right: 20px;
     }
