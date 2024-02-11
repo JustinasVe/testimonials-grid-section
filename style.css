@@ -6,6 +6,7 @@
 
 body {
     background-color: #ecf2f8;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 #testimonial-grid-container {
@@ -26,7 +27,7 @@ body {
 
 #testimonial-3, #testimonial-5 {
     background-color: #ffffff;
-    color: #19212e;
+    color: #48556a;
 }
 
 #testimonial-4 {
@@ -39,6 +40,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+    font-size: 13px;
 }
 
 .card-header {
@@ -71,6 +73,20 @@ body {
 
 .grid-item h4 {
     margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.name {
+    font-size: 1rem;
+}
+
+.graduate {
+    opacity: 50%;
+}
+
+.review {
+    opacity: 70%;
 }
 
 @media (min-width: 576px) {
